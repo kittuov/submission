@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+#nav,#matter
+{
+    margin: 10px auto;
+    padding: 1em 1em 1em;
+    max-width: 1000px;
+    font-family: source-sans-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;    
+    color: #545454;
+    backface-visibility:hidden;
+    min-width:500px;
+   	 -webkit-box-shadow: 0 0 2px rgba(3, 0, 3, 0.6);
+   	 -moz-box-shadow: 0 0 2px rgba(3, 0, 3, 0.6);
+    box-shadow: 0 0 2px rgba(3, 0, 3, 0.6);
+   	 -webkit-font-smoothing: antialiased;
+}
+#name
+{
+	 text-align: center;
+	font-size-adjust: auto;
+	font-size: 48px;
+	position: relative;
+	padding: 10px;
+	color: rgba(36,26,255,1.00);
+	text-shadow: 2px 2px 3px rgba(0,0,0,1.00);
+	font-weight: 900;
+	text-transform: uppercase;
+}
+#nav{
+	position: relative;
+	background-color: rgba(21,36,103,0.81);
+	border-radius: 10px;
+}
+a {
+    text-decoration:none;
+}
+#nav table
+{
+	background-color: rgba(86,243,230,0.80);
+	border-radius: 8px;
+}
+
+
+#matter
+{
+	position: relative;
+	margin-top: 5px;
+	background-color: rgba(255,255,255,0.8);
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-size: 100% auto;
+	border-radius: 13px;
+	
+}
+#matter p
+{
+	text-indent: 44px;
+	position: relative;
+	margin-top: 5px;
+	background-color: rgba(255,255,255,0.8);
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-size: 100% auto;
+	border-radius: 13px;
+	}
+#matter ol, #matter ul
+{
+	
+	position: relative;
+	margin-top: 5px;
+	background-color: rgba(255,255,255,0.8);
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-size: 100% auto;
+	border-radius: 13px;
+	}
+#bg
+{
+	position: fixed;
+	background-color: #FFFFFF;
+	left: -17px;
+	top: -16px;
+}
+a:visited, a:active
+{
+	color: rgba(0,5,255,1.00);	
+}
+a:hover
+{
+	color:rgba(255,0,4,1.00);
+}
+
+#motor
+{
+	margin: 10px auto;
+	width: 200px;
+	height: auto;
+	position: relative;
+	float: left;
+}
+#image
+{
+	width: 100px;
+	height: auto;
+	float: right;
+	position:relative;
+}
